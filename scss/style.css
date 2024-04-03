@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: chocolate;
+}
+body .Calculator {
+  width: 20rem;
+  height: 51vh;
+  background-color: blue;
+  padding: 15px;
+}
+body .Calculator .inptxt {
+  width: 20rem;
+  height: 5vh;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+body .Calculator .buttons .section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+body .Calculator .buttons .section .nums {
+  width: 4rem;
+  height: 6vh;
+  background-color: yellow;
+  font-size: 20px;
+}
+body .Calculator .buttons .section .oper {
+  width: 4rem;
+  height: 6vh;
+  background-color: green;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .Calculator .buttons .section .deleteAll {
+  width: 4rem;
+  height: 6vh;
+  background-color: red;
+  font-size: 20px;
+}
+body .Calculator .buttons .section .delete {
+  width: 4rem;
+  height: 6vh;
+  background-color: orangered;
+  font-size: 20px;
+}
+body .Calculator .buttons .equal {
+  width: 20rem;
+  height: 6vh;
+  background-color: aqua;
+  margin-top: 6px;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
