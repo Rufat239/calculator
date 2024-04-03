@@ -63,3 +63,5 @@ function cClick(value) {
   result.value = result.value.slice(0, result.value.length - 1);
 }
 deleteButton.addEventListener("click", cClick);
+
+// Menim layihem
